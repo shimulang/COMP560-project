@@ -1,0 +1,4 @@
+model_name_or_path: /root/vln/LLaMA-Factory/models/LLM-Research/Meta-Llama-3-70B-Instruct
+adapter_name_or_path: /root/vln/LLaMA-Factory/saves/llama3-70b/lora/sft
+template: llama3
+finetuning_type: lora

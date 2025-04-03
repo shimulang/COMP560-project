@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES="0,1,2,3"  FORCE_TORCHRUN=1 llamafactory-cli train examples/train_lora/llama3_lora_sft_ds3.yaml

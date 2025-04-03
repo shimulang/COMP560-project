@@ -1,0 +1,11 @@
+### model
+model_name_or_path: /root/vln/LLaMA-Factory/models/LLM-Research/Meta-Llama-3-70B-Instruct
+template: llama3
+
+### export
+export_dir: /root/vln/LLaMA-Factory/saves/llama3-70b/lora/llama3_gptq
+export_quantization_bit: 4
+export_quantization_dataset: /root/vln/VLN-DUET/datasets/R2R/annotations/pretrain/r2r_vln_fineturn_data.json
+export_size: 2
+export_device: cpu
+export_legacy_format: false
